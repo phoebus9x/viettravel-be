@@ -1,0 +1,1519 @@
+/* ====================== RESPONSIVE SETTINGS ====================== */
+
+
+/* =========== All page Responsive =============== */
+@media all and (min-width: 1400px) {
+
+    /* ======== index.html ======== */
+    span.navbarBtn {
+        margin-right: 10px;
+        margin-left: 35px;
+    }
+
+    #weDo p {
+        color: #9B9B9B;
+        margin: 25px 0 28px 0;
+        padding: 0 231px 0 45px;
+    }
+
+    #weDo h2 {
+        color: #FFFFFF;
+        padding: 0 196px 0 45px;
+    }
+
+    #testimonials .col-md-4 {
+        padding: 30px 30px 35px 30px;
+    }
+
+    #newsletter h2 {
+        padding: 20px 381px 30px 0;
+    }
+}
+
+@media all and (max-width: 1199px) {
+
+    /* global grid setting start*/
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm {
+        max-width: 1128px;
+    }
+
+    /* global grid setting end*/
+    /* ======== index.html ======== */
+    .chooseBg {
+        padding: 70px 100px 260px 100px;
+    }
+
+    #weDo h4 {
+        margin: -15px 0 15px 45px;
+    }
+
+    #planning p {
+        padding: 40px 50px 15px 50px;
+    }
+
+    #planning h3 {
+        padding: 0 45px;
+    }
+
+    #planning {
+        padding: 100px 274px;
+    }
+
+    #blog h2 {
+        padding: 0 170px;
+    }
+}
+
+@media all and (min-width: 992px) {
+
+    /* ======== index.html ======== */
+    .navbar .dropdown-menu-end {
+        right: 0;
+        left: auto;
+    }
+
+    .navbar .nav-item .dropdown-menu {
+        display: block;
+        opacity: 0;
+        visibility: hidden;
+        transition: .3s;
+        margin-top: 4px;
+    }
+
+    .navbar .nav-item:hover .nav-link {
+        color: #505050;
+    }
+
+    .navbar .dropdown-menu.fade-down {
+        top: 80%;
+        transform: rotateX(-75deg);
+        transform-origin: 0% 0%;
+    }
+
+    .navbar .dropdown-menu.fade-up {
+        top: 180%;
+    }
+
+    .navbar .nav-item:hover .dropdown-menu {
+        transition: .3s;
+        opacity: 1;
+        visibility: visible;
+        top: 100%;
+        transform: rotateX(0deg);
+        padding: 10px 45px 10px 0;
+    }
+
+}
+
+@media all and (max-width: 991px) {
+
+    /* global grid setting start*/
+    .container,
+    .container-md,
+    .container-sm {
+        max-width: 925px;
+    }
+
+    /* global grid setting end*/
+    /* ======== index.html ======== */
+    #features {
+        margin-top: -196px;
+        padding: 31px 0 20px 0;
+    }
+
+    #features .col-md-3::after {
+        bottom: -21px;
+    }
+
+    #features .col-md-3 div {
+        padding: 0;
+    }
+
+    #about form {
+        padding: 42px 10px;
+    }
+
+    #about .experience {
+        left: -146px;
+    }
+
+    #about select {
+        width: 135px;
+        padding: 5px 8px 5px 0;
+    }
+
+    #about input {
+        width: 115px;
+    }
+
+    #about h4 {
+        padding: 25px 0 15px 0;
+    }
+
+    #about .col-md-9 p {
+        padding: 10px 0 20px 0;
+    }
+
+    .chooseBg {
+        padding: 70px 20px 260px 20px;
+    }
+
+    #services p {
+        padding: 0 103px 40px 0;
+    }
+
+    #weDo h2 {
+        padding: 0 10px 0 45px;
+    }
+
+    #faq .container {
+        padding: 0 130px;
+    }
+
+    .faq-section {
+        padding: 60px 50px 40px 50px;
+    }
+
+    #testimonials h2 {
+        padding: 20px 325px 40px 0;
+    }
+
+    #logoipsum {
+        padding: 40px 25px 40px 25px;
+    }
+
+    #planning {
+        padding: 100px 207px;
+    }
+
+    #newsletter input {
+        width: 250px;
+    }
+
+    #newsletter h2 {
+        padding: 10px 186px 30px 0;
+    }
+
+    .sub-footer p {
+        text-align: left;
+    }
+
+    #contact p {
+        padding: 0 300px 30px 0;
+    }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+
+    /* ======== index.html ======== */
+    .about-Image {
+        flex: 0 0 auto;
+        width: 24.666667%;
+        padding: 0 9px 0 0;
+    }
+}
+
+@media (max-width: 922px) {
+
+    /* ======== index.html ======== */
+    #weDo h2 {
+        padding: 0 10px 0 10px;
+    }
+
+    #weDo h4 {
+        color: #FB8E26;
+        margin: -10px 0 5px 10px;
+    }
+
+    #weDo p {
+        padding: 0 10px 0 10px;
+        margin: 9px 0 9px 0;
+    }
+
+    #weDo .globalBtnActive {
+        margin-left: 10px;
+    }
+}
+
+@media (min-width: 770px) {
+
+    /* ======== index.html ======== */
+    .tourCards .col-md-4 {
+        width: calc(33.33333333% - 20px);
+    }
+
+    #team .col-md-4 {
+        width: calc(33.33333333% - 25px);
+    }
+
+    #team a {
+        padding: 0 !important;
+    }
+
+    #testimonials .col-md-4 {
+        width: calc(33.33333333% - 20px);
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    /* global style */
+    h1 {
+        font-size: 80px;
+        font-weight: 600;
+        line-height: 86px;
+    }
+
+    h2 {
+        font-size: 35px;
+        font-weight: 600;
+        line-height: 41px;
+    }
+
+    h3 {
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 27px;
+    }
+
+    h4 {
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 24px;
+    }
+
+    h5 {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 22px;
+    }
+
+    h6 {
+        font-size: 14px !important;
+        font-weight: 600;
+        line-height: 20px;
+    }
+
+    p {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+    }
+
+    button {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 18px;
+        padding: 14px 30px 14px 30px;
+    }
+
+    a {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        padding: 14px 30px 14px 30px !important;
+    }
+
+    /* ======== index.html ======== */
+    .header-slider {
+        height: 845px;
+    }
+
+    .overlay {
+        height: 845px;
+    }
+
+    .navbar-toggler {
+        padding: 0.75rem 1rem;
+    }
+
+    #hero {
+        padding: 80px 0 0 0;
+        margin-top: 0;
+    }
+
+    #hero p {
+        padding: 10px 110px 20px 110px;
+    }
+
+    #hero h1:first-child {
+        font-size: 100px;
+    }
+
+    #features {
+        margin-top: -210px;
+    }
+
+    #features .col-md-3:hover::after {
+        width: 0;
+    }
+
+    #about {
+        margin-bottom: 70px;
+    }
+
+    #about .blueBg {
+        height: 160px;
+    }
+
+    #about .experience {
+        width: 155px;
+        bottom: 37px;
+        left: -111px;
+        padding: 34px 27px;
+    }
+
+    #about h4 {
+        padding: 25px 0 10px 0;
+    }
+
+    #about-message {
+        width: 58%;
+        padding: 45px 0;
+        font-size: 25px;
+    }
+
+    #special {
+        padding: 70px 0;
+    }
+
+    #special h3 {
+        padding: 35px 0 10px 0;
+    }
+
+    #special p {
+        padding: 0 0 20px 0;
+        color: #FFFFFF;
+    }
+
+    .special {
+        padding: 0 0 50px 0 !important;
+        margin: 0 0 20px 0 !important;
+    }
+
+    #tour {
+        padding: 70px 0;
+    }
+
+    .tourCards .row {
+        justify-content: center !important;
+    }
+
+    #tour p {
+        padding: 0px 30px 0 0;
+    }
+
+    .tourCards a {
+        padding: 0 !important;
+        margin-left: 22px;
+    }
+
+    .tourCards h6 {
+        padding: 25px 20px 0 20px !important;
+    }
+
+    .tourCards p {
+        padding: 10px 20px 20px 20px !important;
+    }
+
+    #tour h4 {
+        padding-bottom: 10px;
+    }
+
+    #choose {
+        margin: 0 0 70px 0;
+    }
+
+    #choose h2 {
+        padding: 0 150px;
+    }
+
+    #choose .row {
+        padding: 0 9px;
+    }
+
+    .chooseBg {
+        padding: 60px 20px 230px 20px;
+    }
+
+    .chooseCrads .col-md-4 {
+        padding: 0 6px;
+    }
+
+    #choose .globalBtn {
+        margin-top: 2rem !important;
+    }
+
+    img[alt="servicesIcon"] {
+        width: 50px;
+    }
+
+    img[alt="ser-Camera"] {
+        width: 70%;
+        margin: -133px 0 0 -52px;
+    }
+
+    #services p {
+        padding: 0 49px 25px 0;
+    }
+
+    #services h2 {
+        padding: 10px 36px 20px 0;
+    }
+
+    .services {
+        padding: 70px 0;
+    }
+
+    .services .col-md-3:nth-child(5) img {
+        width: 44px !important;
+    }
+
+    #weDo {
+        margin: 65px 0 50px 0;
+    }
+
+    .video-play-button {
+        padding: 18px 20px 18px 28px !important;
+        width: 16px;
+    }
+
+    .video-play-button span {
+        left: -4px;
+        top: -5px;
+    }
+
+    #weDo h4 {
+        margin: -10px 0 5px 20px;
+    }
+
+    #weDo h2 {
+        padding: 0 10px 0 20px;
+    }
+
+    #weDo p {
+        padding: 0 15px 0 15px;
+    }
+
+    #weDo .globalBtnActive {
+        margin-left: 20px;
+    }
+
+    .weDo {
+        padding-bottom: 70px;
+    }
+
+    #team a {
+        padding: 0 !important;
+    }
+
+    #team {
+        margin: 40px 0;
+        padding: 20px 0 30px 0;
+    }
+
+    #team h2 {
+        padding: 12px 0 30px 0;
+        text-align: center;
+    }
+
+    #team h4 {
+        text-align: center;
+    }
+
+    #team p {
+        padding: 9px 0 11px 0;
+        text-align: center;
+    }
+
+    #team h6:first-child {
+        padding: 24px 0 0 0;
+        text-align: center;
+    }
+
+    .team-cards {
+        margin-top: 60px !important;
+    }
+
+    #faq .container {
+        padding: 0 110px;
+    }
+
+    .faq-section {
+        padding: 45px 40px 45px 40px;
+    }
+
+    .faq {
+        padding: 25px 0 25px 0;
+    }
+
+    .accordion-body {
+        padding: 0 1rem 0.75rem 1.25rem;
+    }
+
+    #testimonials {
+        margin: 70px 0;
+    }
+
+    #testimonials .row {
+        padding: 0 12px;
+    }
+
+    #testimonials h2 {
+        padding: 10px 0 30px 0;
+        text-align: center;
+    }
+
+    #testimonials h4 {
+        text-align: center;
+    }
+
+    .testimonial-card {
+        margin-top: 60px !important;
+    }
+
+    #logoipsum img {
+        width: 150px;
+    }
+
+    #logoipsum {
+        padding: 60px 40px 60px 40px;
+    }
+
+    #planning {
+        padding: 60px 165px;
+    }
+
+    #planning p {
+        padding: 20px 10px 15px 10px;
+    }
+
+    #blog {
+        padding: 60px 0 50px 0;
+    }
+
+    .blogCards {
+        margin-top: 2rem;
+    }
+
+    .blogCards a {
+        margin-left: 0;
+        padding: 0 !important;
+    }
+
+    #blog h4 {
+        padding-bottom: 10px;
+    }
+
+    #blog h2 {
+        padding: 0 130px;
+    }
+
+    .blogCards .col-md-4 {
+        padding-bottom: 25px !important;
+    }
+
+    #newsletter-message {
+        width: 58%;
+        padding: 45px 0;
+        font-size: 25px;
+    }
+
+    #newsletter h4 {
+        text-align: center;
+    }
+
+    #newsletter h2 {
+        padding: 10px 90px 30px 90px;
+        text-align: center;
+    }
+
+    #newsletter input {
+        font-size: 14px;
+    }
+
+    .footer-links a {
+        padding: 0 0 19px 0 !important;
+    }
+
+    .reservation {
+        padding-left: 10px;
+    }
+
+    footer {
+        padding: 55px 0 30px 0;
+    }
+
+    footer h4 {
+        padding-bottom: 15px;
+    }
+
+    .sub-footer img {
+        width: 180px;
+    }
+
+    .address div {
+        padding-bottom: 28px;
+    }
+
+    /* ======== about.html ======== */
+    .breadcrumb-item {
+        font-weight: 400;
+        font-size: 16px;
+    }
+
+    /* ======== contact.html ======== */
+    #contact-message {
+        width: 58%;
+        padding: 45px 0 !important;
+        font-size: 25px;
+    }
+
+    #contact h4 {
+        padding-bottom: 20px;
+    }
+}
+
+@media (min-width: 768px) {
+
+    /* ======== index.html ======== */
+    #about .col-md-3 {
+        flex: 0 0 auto;
+        width: 30%;
+    }
+
+    .blogCards .col-md-4 {
+        width: calc(33.33333333% - 35px);
+    }
+
+    .services .col-md-3 {
+        width: 28%;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width:769px) {
+
+    /* ======== index.html ======== */
+    .tourCards .col-md-4 {
+        width: calc(33.33333333% - 16px);
+    }
+
+    .tourCards .row {
+        gap: 1rem !important;
+        justify-content: center !important;
+        padding-right: 5px !important;
+        padding-left: 5px !important;
+    }
+
+    #team .col-md-4 {
+        width: calc(33.33333333% - 12px);
+    }
+
+    #testimonials .col-md-4 {
+        width: calc(33.33333333% - 10px);
+    }
+}
+
+@media all and (max-width: 767px) {
+
+    /* ======== index.html ======== */
+    .header-slider {
+        height: 615px;
+    }
+
+    header hr {
+        display: none;
+    }
+
+    .overlay {
+        height: 615px;
+    }
+
+    #hero {
+        padding: 33px 0 0 0;
+        margin-top: 52px;
+    }
+
+    #features {
+        margin-top: 0;
+        padding: 50px 0 40px 0;
+        background-color: rgba(2, 31, 65, 1);
+    }
+
+    #features .col-md-3 div {
+        justify-content: center;
+        align-items: center;
+        margin: 10px 0;
+        padding: 5px 0;
+    }
+
+    #features .col-md-3::after {
+        display: none;
+    }
+
+    #about .col-md-2 {
+        width: 48.666667%;
+    }
+
+    #about input {
+        width: 100%;
+    }
+
+    #about select {
+        width: 100%;
+        padding: 5px 8px 5px 0;
+    }
+
+    #about form {
+        display: flex !important;
+        flex-direction: column;
+        padding: 42px 20px;
+    }
+
+    #about .col-md-8 p,
+    #about .col-md-8 h3 {
+        text-align: center;
+    }
+
+    #about .col-md-8 h2 {
+        text-align: center;
+    }
+
+    #about .row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .aboutImg img {
+        height: 100%;
+    }
+
+    #about .aboutImg {
+        margin-top: 3.5rem;
+    }
+
+    #about h4 {
+        padding: 50px 0 15px 0;
+        text-align: center;
+    }
+
+    #about h2 {
+        text-align: center;
+        padding: 0 30px;
+    }
+
+    .aboutImg h2 {
+        padding: 0 !important;
+    }
+
+    #about .col-md-9 p {
+        padding: 10px 40px 20px 40px;
+        text-align: center;
+    }
+
+    .experience {
+        display: none !important;
+    }
+
+    #special {
+        padding: 15px 15px 30px 15px;
+    }
+
+    .special {
+        padding: 0 0 30px 0 !important;
+        margin: 0 !important;
+    }
+
+    .special h3 {
+        padding: 15px 0 10px 0 !important;
+    }
+
+    #tour {
+        padding: 50px 0;
+    }
+
+    #tour p {
+        padding: 0px 30px 0 30px;
+        text-align: center;
+    }
+
+    #tour .tourPara {
+        width: 100%;
+    }
+
+    #tour h4 {
+        text-align: center;
+    }
+
+    #tour h2 {
+        text-align: center;
+    }
+
+    .tourCards p {
+        text-align: left !important;
+    }
+
+    #choose {
+        margin: 0 0 50px 0;
+    }
+
+    #choose .row {
+        padding: 0 25px;
+    }
+
+    .chooseCrads {
+        margin-top: -6.5rem;
+    }
+
+    .chooseCrads .col-md-4 div {
+        padding: 40px 22px;
+    }
+
+    .chooseBg::before {
+        background-attachment: scroll;
+    }
+
+    #choose h2 {
+        padding: 0 67px;
+    }
+
+    .choose {
+        margin-bottom: 35px !important;
+    }
+
+    #services h4 {
+        text-align: center;
+    }
+
+    #services h2 {
+        text-align: center;
+        padding: 15px 30px 10px 30px;
+    }
+
+    #services p {
+        padding: 7px 30px 40px 30px;
+        text-align: center;
+    }
+
+    #services h6 {
+        padding: 15px 0 25px 0;
+    }
+
+    img[alt="ser-Camera"] {
+        width: 50%;
+        margin: -242px 0 0 -20px;
+    }
+
+    .services {
+        padding: 50px 0 30px 0;
+    }
+
+    .services .col-md-3:nth-child(5) img {
+        width: 38px !important;
+    }
+
+    #weDo h2 {
+        text-align: center;
+    }
+
+    .weDo-content {
+        padding: 35px 30px 30px 30px;
+        align-items: center !important;
+    }
+
+    .weDo-content h4,
+    .weDo-content h3,
+    .weDo-content p {
+        text-align: center;
+    }
+
+    .weDo {
+        padding-bottom: 50px;
+    }
+
+    .team-cards {
+        margin-top: 0 !important;
+    }
+
+    #faq {
+        background-attachment: scroll;
+    }
+
+    #faq .container {
+        padding: 0 60px;
+    }
+
+    .faq-section {
+        padding: 60px 20px 40px 20px;
+    }
+
+    .faq-section h2:nth-child(2) {
+        padding: 0 10px;
+    }
+
+    #testimonials h2 {
+        padding: 8px 0 30px 0;
+    }
+
+    #testimonials .col-md-4 {
+        padding: 40px 60px 40px 60px;
+    }
+
+    .testimonial-card {
+        margin-top: 0 !important;
+    }
+
+    #planning::before {
+        background-attachment: scroll;
+    }
+
+    #planning {
+        padding: 100px 20px;
+    }
+
+    #planning h3 {
+        padding: 0;
+    }
+
+    #blog h2 {
+        padding: 0 70px;
+    }
+
+    .blogCards .row {
+        padding-right: 15px !important;
+        padding-left: 15px !important;
+    }
+
+    #newsletter {
+        padding: 50px 0;
+    }
+
+    #newsletter h2 {
+        padding: 10px 20px 20px 20px;
+    }
+
+    #newsletter p {
+        text-align: center;
+        padding: 0 10px;
+    }
+
+    #newsletter input {
+        padding: 14px 0 15px 15px;
+        width: 68%;
+    }
+
+    #newsletter form {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    footer {
+        padding: 50px 0 30px 0;
+    }
+
+    footer .col-lg-2 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer-links a {
+        padding: 0 0 10px 0 !important;
+    }
+
+    .reservation {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .reservation p {
+        padding: 0 45px;
+    }
+
+    .sub-footer p {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .sub-footer figure {
+        display: flex;
+        justify-content: center;
+    }
+
+    /* ======== about.html ======== */
+    .hero {
+        padding: 60px 0 60px 0;
+    }
+
+    /* ======== contact.html ======== */
+    #contact p {
+        padding: 0 30px 30px 30px;
+        text-align: center;
+    }
+
+    #contact .address p {
+        text-align: left;
+    }
+
+    #contact h4,
+    #contact {
+        text-align: center;
+    }
+
+    #contact h2 {
+        padding-bottom: 10px;
+    }
+
+    #contact .col-md-4 {
+        padding: 40px 100px;
+    }
+
+    #contact {
+        padding: 50px 0;
+    }
+
+    #contact button {
+        border: none !important;
+    }
+
+    #contact .col-md-8 {
+        padding: 35px 30px;
+    }
+}
+
+@media (max-width: 575px) {
+
+    /* ======== index.html ======== */
+    footer {
+        text-align: center;
+    }
+
+    footer .row {
+        gap: 20px;
+    }
+}
+
+@media all and (max-width: 521px) {
+
+    /* ======== index.html ======== */
+    #hero p {
+        padding: 7px 30px 14px 30px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    /* global style */
+    h1 {
+        font-size: 54px;
+        font-weight: 600;
+        line-height: 60px;
+    }
+
+    h2 {
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 34px;
+    }
+
+    h3 {
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 26px;
+    }
+
+    h4 {
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 26px;
+    }
+
+    h5 {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 22px;
+    }
+
+    h6 {
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 20px;
+    }
+
+    p {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+    }
+
+    .card-text p {
+        font-size: 12px !important;
+        font-weight: 400;
+        line-height: 18px !important;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    button {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        padding: 12px 32px 12px 32px;
+    }
+
+    a {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        padding: 12px 26px 12px 26px !important;
+    }
+
+    /* Global buttons start */
+    .globalBtn a {
+        padding: 12px 32px !important;
+    }
+
+    .globalBtn button {
+        padding: 12px 32px !important;
+    }
+
+    .globalBtnActive a {
+        padding: 12px 32px !important;
+    }
+
+    .globalBtnActive button {
+        padding: 12px 32px !important;
+    }
+
+    /* Global buttons end */
+    /* ======== index.html ======== */
+    .header-slider {
+        height: 536px;
+    }
+
+    .overlay {
+        height: 536px;
+    }
+
+    #hero h1:first-child {
+        font-size: 70px;
+    }
+
+    #features p {
+        text-align: center;
+    }
+
+    #about {
+        margin-bottom: 50px;
+    }
+
+    #about input {
+        font-size: 12px;
+    }
+
+    #about select {
+        font-size: 12px;
+    }
+
+    input[type="date"] {
+        font-size: 12px;
+
+    }
+
+    #about .col-md-2 {
+        width: 70%;
+    }
+
+    #about .experience {
+        width: 132px;
+        bottom: 60px;
+        left: -65px;
+        padding: 27px 36px;
+    }
+
+    #about form {
+        background-color: #FFFFFF;
+        padding: 42px 30px;
+    }
+
+    #about .blueBg {
+        height: 150px;
+    }
+
+    #about-message {
+        width: 80%;
+        right: 10%;
+        padding: 45px 0;
+    }
+
+    #tour p {
+        padding: 0px 5px 0 5px;
+    }
+
+    .chooseBg {
+        padding: 60px 20px 180px 20px;
+    }
+
+    #choose h2 {
+        padding: 0 30px;
+    }
+
+    .chooseCrads .col-md-4 div {
+        padding: 40px 54px;
+    }
+
+    img[alt="servicesIcon"] {
+        width: 60px;
+    }
+
+    img[alt="ser-Camera"] {
+        margin: -152px 0 0 -20px;
+    }
+
+    #services h2 {
+        padding: 15px 10px 10px 10px;
+    }
+
+    #services p {
+        padding: 7px 10px 40px 10px;
+    }
+
+    .services .col-md-3:nth-child(5) img {
+        width: 47px !important;
+    }
+
+    .weDo-content {
+        padding: 50px 20px;
+    }
+
+    #weDo {
+        margin: 50px 0;
+    }
+
+    #team {
+        margin: 50px 0;
+        padding: 5px 0;
+    }
+
+    #team .row {
+        padding: 0;
+    }
+
+    #faq .container {
+        padding: 0 20px;
+    }
+
+    .faq-section {
+        padding: 30px 10px 20px 10px;
+    }
+
+    #faq .accordion-button {
+        font-size: 16px;
+    }
+
+    .faq {
+        padding: 20px 0 20px 0;
+    }
+
+    #testimonials {
+        margin: 50px 0;
+    }
+
+    #testimonials h2 {
+        padding: 8px 0 20px 0;
+    }
+
+    #testimonials i {
+        font-size: 16px;
+    }
+
+    #logoipsum img {
+        width: 140px;
+    }
+
+    #logoipsum {
+        padding: 50px 40px;
+    }
+
+    #planning {
+        padding: 50px 20px;
+    }
+
+    #blog {
+        padding: 50px 0 25px 0;
+    }
+
+    #blog h2 {
+        padding: 0 20px;
+    }
+
+    .blogCategory {
+        padding: 25px 5px 0 0 !important;
+    }
+
+    #newsletter form {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #newsletter input {
+        width: 100%;
+        text-align: center;
+    }
+
+    #newsletter .globalBtnActive {
+        display: block;
+    }
+
+    #newsletter .globalBtnActive button {
+        width: 100%;
+    }
+
+    #newsletter-message {
+        width: 80%;
+        right: 10%;
+        font-size: 25px;
+        padding: 45px 0;
+    }
+
+    footer .row {
+        gap: 9px;
+    }
+
+    .address div {
+        padding-bottom: 15px;
+    }
+
+    .sub-footer img {
+        width: 190px;
+    }
+
+    .sub-footer p {
+        padding: 0;
+    }
+
+    /* ======== contact.html ======== */
+    #contact-message {
+        width: 80%;
+        right: 10%;
+        padding: 45px 0;
+    }
+
+    #contact-form div:nth-child(1),
+    #contact-form div:nth-child(2) {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* ======== comingsoon.html/404.html ======== */
+    .pg .col-lg-6 {
+        padding: 60px 40px;
+    }
+}
+
+@media all and (max-width: 360px) {
+
+    /* ======== index.html ======== */
+    .navbar-brand img {
+        width: 164px;
+    }
+
+    #hero {
+        padding: 33px 0 0 0;
+        margin-top: 25px;
+    }
+
+    #hero h1:first-child {
+        font-size: 68px;
+    }
+
+    #hero p {
+        padding: 7px 10px 14px 10px !important;
+    }
+
+    #about .col-md-9 p {
+        padding: 10px 10px 0 10px;
+    }
+
+    #about-message {
+        font-size: 20px;
+        width: 90%;
+        right: 5%;
+    }
+
+    #tour p {
+        padding: 0px 15px 0 15px;
+    }
+
+    #choose {
+        margin: 0 0 50px 0;
+    }
+
+    #choose .row {
+        padding: 0 10px;
+    }
+
+    img[alt="servicesIcon"] {
+        width: 50px;
+    }
+
+    .services .col-md-3:nth-child(5) img {
+        width: 40px !important;
+    }
+
+    .weDo-content {
+        padding: 35px 10px 30px 10px;
+    }
+
+    #faq .container {
+        padding: 0 10px;
+    }
+
+    .faq-section {
+        padding: 20px 5px 15px 5px;
+    }
+
+    #faq .accordion-button {
+        font-size: 14px;
+    }
+
+    #logoipsum {
+        padding: 40px 0 40px 0;
+    }
+
+    #logoipsum img {
+        width: 116px;
+    }
+
+    #planning h3 {
+        padding: 0 10px;
+    }
+
+    #blog h2 {
+        padding: 0 5px;
+    }
+
+    #newsletter-message {
+        font-size: 20px;
+        width: 90%;
+        right: 5%;
+    }
+
+    /* ======== contact.html ======== */
+    #contact-message {
+        font-size: 20px;
+        width: 90%;
+        right: 5%;
+    }
+
+    #contact p {
+        padding: 0 20px 30px 20px;
+    }
+}

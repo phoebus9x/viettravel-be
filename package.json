@@ -1,0 +1,29 @@
+{
+  "name": "nodejs_basic",
+  "version": "1.0.0",
+  "description": "Học nodeJS cùng DaTu",
+  "main": ".src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./src/server.js"
+  },
+  "keywords": [
+    "NodeJS"
+  ],
+  "author": "DaTu",
+  "license": "ISC",
+  "dependencies": {
+    "api-query-params": "^5.4.0",
+    "dotenv": "^16.1.4",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.0",
+    "mongodb": "^5.7.0",
+    "mongoose": "^7.3.1",
+    "mongoose-delete": "^1.0.1",
+    "node-sass": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.22"
+  }
+}
